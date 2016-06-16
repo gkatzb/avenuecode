@@ -13,8 +13,8 @@
 <header class="col-sm-12 col-xs-12 Topo_logo">
     <div class="col-sm-12 col-xs-12 barra_azul_topo_1">
         <img class="logo_ubook" src="/img/logo.png" alt="">
-		<div class="col-sm-3 col-xs-3 pull-right">
-			<a href="{!! route('logout') !!}"><span class="fa fa-logout"></span>&nbsp;Logout</a>
+		<div class="col-sm-3 col-xs-3 pull-right logout-div">
+			<a class="pull-right logout-icon" href="{!! route('logout') !!}"><i class="fa fa-sign-out"></i>&nbsp;Logout</a>
 		</div>
     </div>
 </header>

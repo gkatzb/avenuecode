@@ -843,3 +843,17 @@ body{
 .modal-book-body{
 	margin-top: -20%;
 }
+.ico_delete_book{
+	margin-top: 1px !important;
+}
+.logout-div{
+	margin-top: 17px;
+}
+.logout-icon{
+	color: #ffffff;
+}
+.logout-icon:hover{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}

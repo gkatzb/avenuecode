@@ -12,22 +12,25 @@
 <body class="Listagem">
 <header class="col-sm-12 col-xs-12 Topo_logo">
     <div class="col-sm-12 col-xs-12 barra_azul_topo_1">
-        <img class="logo_phone2b" src="/img/logo.png" alt="">
+        <img class="logo_ubook" src="/img/logo.png" alt="">
+		<div class="col-sm-3 col-xs-3 pull-right">
+			<a href="{!! route('logout') !!}"><span class="fa fa-logout"></span>&nbsp;Logout</a>
+		</div>
     </div>
 </header>
 <div class="col-sm-12 col-xs-12 Barra_menu">
     <div class="col-sm-12 col-xs-12 barra_azul_topo">
         <div class="Menu">
-            <div class="Menu_Telefonia">
-                <img class="ico_phone" src="/img/ico-phone.png" alt="">
-                <a href="{!! route('company') !!}" class="link-empresas">
-                    Empresas
+            <div class="Menu_Usuarios">
+                <img class="ico_phone" src="/img/ico-book.png" alt="">
+                <a href="{!! route('book') !!}" class="books-link">
+                    Books
                 </a>
             </div>
-            <div class="Menu_Usuarios">
+            <div class="Menu_Editors">
                 <img class="ico_users" src="/img/ico-user.png" alt="">
-                <a href="{!! route('employee') !!}" class="link-colaboradores">
-                    Colaboradores
+                <a href="{!! route('editor') !!}" class="editors-link">
+                    Editors
                 </a>
             </div>
         </div>

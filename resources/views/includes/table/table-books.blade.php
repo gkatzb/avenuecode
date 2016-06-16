@@ -19,9 +19,9 @@
                 <tr>
                     <td>
                         <a class="Nomes" data-toggle="modal" data-target="#modal-book-details"
-                           data-book-id="{!! $book->book_id !!}" data-name="{!! $book->book_name !!}"
+                           data-book-id="{!! $book->book_id !!}" data-name="{!! $book->book_title !!}"
                            data-editor-id="{!! $book->editor_id !!}">
-                            {!! $book->book_name !!}
+                            {!! $book->book_title !!}
                         </a>
                     </td>
                     <td class="table-title tbl-nome-empresa">

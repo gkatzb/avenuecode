@@ -48,7 +48,10 @@ class BookController extends Controller
 
     public function insertBook(Request $request){
         $data = [
-            'name' => Input::get('name')
+            'title' => Input::get('title'),
+            'editor' => Input::get('editor_id'),
+            'year' => Input::get('year'),
+            'edition' => Input::get('edition')
         ];
 
         $book = new Book();
@@ -60,9 +63,12 @@ class BookController extends Controller
     }
 
     public function updateBook(Request $request){
-        $bookId = Input::get('Book_id');
+        $bookId = Input::get('book_id');
         $data = [
-            'name' => Input::get('name')
+            'title' => Input::get('title'),
+            'editor' => Input::get('editor_id'),
+            'year' => Input::get('year'),
+            'edition' => Input::get('edition')
         ];
         $book = new Book();
         $book = $book->updateBook($data, $bookId);

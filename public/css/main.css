@@ -20,11 +20,11 @@
     #height: 529px;
     z-index: 68;
 }
-.logo_phone2b {
+.logo_ubook{
     position: absolute;
     left: 96px;
     top: 11px;
-    width: 178px;
+    width: 124px;
     height: 32px;
     z-index: 67;
 }
@@ -49,7 +49,7 @@
     top: 0px;
     z-index: 63;
 }
-.Menu_Telefonia {
+.Menu_Editors {
     position: absolute;
     left: 214px;
     top: 18px;
@@ -175,7 +175,7 @@
         margin-top: -2px;
         z-index: 46;
     }
-    .Menu_Telefonia{
+    .Menu_Editors{
         left: 250px;
     }
     .Menu_Usuarios{
@@ -835,4 +835,11 @@ body{
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 8px;
+}
+.alert-login{
+	margin-left: 0px !important;
+    width: auto !important;
+}
+.modal-book-body{
+	margin-top: -20%;
 }

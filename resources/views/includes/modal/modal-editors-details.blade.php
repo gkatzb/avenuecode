@@ -8,7 +8,7 @@
         <div class="modal-content modal-content-editor">
             <div class="modal-header">
                 <button type="button" class="close ico_close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                Update Editor
+                Editor's information
             </div>
             <div class="modal-body modal-body-editor">
                 {!! Form::open(array('name' => 'frm-editor', 'id' => 'frm-editor', 'url' => route('post.editor'), 'method' => 'POST')) !!}

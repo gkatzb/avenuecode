@@ -46,10 +46,10 @@ class Editor extends Model
 
     public function updateEditor($params, $editorId){
         $editor = $this->find($editorId);
-        $bookId = $params['book_id'];
+        $editorId = $params['editor_id'];
 
         $data = [
-            'book_id' => $bookId,
+            'editor_id' => $editorId,
             'name' => $params['name']
         ];
 

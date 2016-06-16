@@ -51,7 +51,6 @@ class EditorController extends Controller
 
     public function insertEditor(Request $request){
         $data = [
-            'book_id' => Input::get('book_id'),
             'name' => Input::get('name')
         ];
 
@@ -66,7 +65,7 @@ class EditorController extends Controller
     public function updateEditor(Request $request){
         $editorId = Input::get('editor_id');
         $data = [
-            'book_id' => Input::get('book_id'),
+            'editor_id' => Input::get('editor_id'),
             'name' => Input::get('name')
         ];
         $editor = new Editor();

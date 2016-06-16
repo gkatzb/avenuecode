@@ -16,7 +16,7 @@ class CreateEditorTable extends Migration
     {
         Schema::create('editor', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('editor');
+            $table->string('name');
             $table->timestamps();
         });
     }

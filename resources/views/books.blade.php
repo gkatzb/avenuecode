@@ -12,12 +12,12 @@
 	<p class="alert alert-success hidden"></p>
 	<div class="cabecalho_tabela">
 		<span class="header-colaboradores header-empresas">
-			Empresas
+			Books
 
-			<a href="" data-name="" data-company-id="" data-toggle="modal" data-target="#modal-company-details"><img class="ico_mais" src="/img/ico-add.png" alt=""></a>
+			<a href="" data-name="" data-book-id="" data-toggle="modal" data-target="#modal-book-details"><img class="ico_mais" src="/img/ico-add.png" alt=""></a>
 		</span>
 		<span class="Filtrar pull-right">
-			<input type="text" placeholder="Filtrar" class="input_Filtrar" />
+			<input type="text" placeholder="Filter..." class="input_Filtrar" />
 		</span>
 		<hr class="linha_Azul">
 	</div>

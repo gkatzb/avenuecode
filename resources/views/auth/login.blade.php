@@ -12,7 +12,7 @@
     <div class="div-login">
         <h3 class="login-description">Access the system:</h3>
         @foreach($errors->all() as $error)
-            <p class="alert alert-danger">{!!$error!!}</p>
+            <p class="alert alert-danger alert-login">{!!$error!!}</p>
         @endforeach
         {!! Form::open(array('url' => '/login', 'id' => 'frm-login')) !!}
         {!! csrf_field() !!}

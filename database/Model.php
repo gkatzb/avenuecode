@@ -31,7 +31,7 @@ class CustomModel extends Model
     {
         $books = DB::table('book')
             ->join('editor', 'editor.id', '=', 'book.editor_id')
-            ->select('editor.id as editor_id', 'editor.editor as editor_name', 'book.id as book_id', 'book.title as book_title', 'book.edition as book_edition', 'book.year as book_year')
+            ->select('editor.id as editor_id', 'editor.name as editor_name', 'book.id as book_id', 'book.title as book_title', 'book.edition as book_edition', 'book.year as book_year')
             ->get();
         return $books;
     }

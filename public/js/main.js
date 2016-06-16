@@ -6,9 +6,6 @@ jQuery(document).ready(function ($) {
 
     oTable = $('.table').DataTable({
         dom: 'tpr',
-        language:{
-            "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese.json"
-        },
         "iDisplayLength": 5
     });
 

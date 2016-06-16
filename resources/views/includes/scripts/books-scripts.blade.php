@@ -114,7 +114,7 @@
                 method: 'POST',
                 url: 'book',
                 async: false,
-                data: $("#book").serialize(),
+                data: $("#frm-book").serialize(),
                 dataType: 'JSON',
                 success: function() {
                     location.reload(true);

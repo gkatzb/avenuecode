@@ -18,7 +18,7 @@ class Book extends Model
      * @var array
      */
     protected $fillable = [
-        'title', 'editor_id', 'year', 'edition',
+        'title', 'editor_id', 'year', 'edition'
     ];
 
     /**
@@ -39,6 +39,7 @@ class Book extends Model
     }
 
     public function insertBook($params){
+
         $book = $this->create($params);
         $book = (object)$book;
 
@@ -49,7 +50,10 @@ class Book extends Model
         $book = $this->find($bookId);
 
         $bookData = [
-            'name' => $params['name']
+            'title' => $params['title'],
+            'editor_id' => $params['editor_id'],
+            'edition' => $params['edition'],
+            'year' => $params['year']
         ];
 
         $book->update($bookData);
